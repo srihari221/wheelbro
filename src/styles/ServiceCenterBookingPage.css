@@ -1,0 +1,57 @@
+.service-center-booking {
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .service-package {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-package h2 {
+    margin: 0 0 10px;
+  }
+  
+  .service-package p {
+    margin: 0 0 5px;
+  }
+  
+  .service-package button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .service-package button:hover {
+    background: #0056b3;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .modal-overlay {
+    background: rgba(0, 0, 0, 0.75);
+  }
+  

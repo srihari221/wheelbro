@@ -1,0 +1,75 @@
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.box {
+    width: 400px;
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 0;
+}
+
+.signuptitle {
+    text-align: center;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark gray for the title */
+    font-size: 24px; /* Slightly larger title */
+}
+
+.iptxt {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Lighter border for inputs */
+    background-color: #fff; /* White background for inputs */
+    border-radius: 10px;
+    padding: 10px 15px; /* Adjusted padding */
+    font-size: 16px; /* Slightly smaller font size */
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+}
+
+.btn1 {
+    width: 100%;
+    height: 45px;
+    background-color: #007bff; /* Lighter blue button */
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 25px; /* Rounded button */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Softer shadow */
+    cursor: pointer;
+    font-size: 18px; /* Smaller font size for button */
+    font-weight: 600; /* Slightly lighter font weight */
+}
+
+.words {
+    text-align: center;
+    color: #555; /* Dark gray for additional text */
+    font-size: 16px; /* Slightly smaller font size */
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.text-danger {
+    color: red;
+}

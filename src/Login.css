@@ -1,0 +1,61 @@
+/* Flexbox centering utilities */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+/* Modal Box styling */
+.box {
+    width: 400px;
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Light border */
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    border-radius: 10px;
+    padding: 30px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+/* Close button styling */
+
+
+/* Title styling */
+.logintitle {
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark gray for the title */
+    font-size: 24px; /* Slightly larger title */
+}
+
+/* Input fields styling */
+.iptxt {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Lighter border for inputs */
+    background-color: #fff; /* White background for inputs */
+    border-radius: 10px;
+    padding: 10px 15px; /* Adjusted padding */
+    font-size: 16px; /* Slightly smaller font size */
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle inset shadow */
+}
+
+

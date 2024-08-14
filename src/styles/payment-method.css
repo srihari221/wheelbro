@@ -1,0 +1,47 @@
+.payment label {
+  font-weight: 600;
+  color: #000d6b;
+}
+
+.payment button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: #000d6b;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+/* Popup styling */
+.popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #28a745; /* Success green background */
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  opacity: 0;
+  animation: slideIn 0.5s forwards, fadeOut 0.5s 2.5s forwards;
+}
+
+/* Slide-in and fade-out animations */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
